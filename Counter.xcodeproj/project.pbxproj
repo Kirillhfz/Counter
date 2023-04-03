@@ -13,20 +13,10 @@
 		603456EB29D9C54700EC2129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603456E929D9C54700EC2129 /* Main.storyboard */; };
 		603456ED29D9C54700EC2129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603456EC29D9C54700EC2129 /* Assets.xcassets */; };
 		603456F029D9C54700EC2129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603456EE29D9C54700EC2129 /* LaunchScreen.storyboard */; };
-		603456FB29D9C54800EC2129 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603456FA29D9C54800EC2129 /* CounterTests.swift */; };
-		6034570529D9C54800EC2129 /* CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6034570429D9C54800EC2129 /* CounterUITests.swift */; };
-		6034570729D9C54800EC2129 /* CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6034570629D9C54800EC2129 /* CounterUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		603456F729D9C54800EC2129 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 603456D829D9C54700EC2129 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 603456DF29D9C54700EC2129;
-			remoteInfo = Counter;
-		};
-		6034570129D9C54800EC2129 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 603456D829D9C54700EC2129 /* Project object */;
 			proxyType = 1;
@@ -45,10 +35,6 @@
 		603456EF29D9C54700EC2129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603456F129D9C54700EC2129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		603456F629D9C54800EC2129 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		603456FA29D9C54800EC2129 /* CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTests.swift; sourceTree = "<group>"; };
-		6034570029D9C54800EC2129 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6034570429D9C54800EC2129 /* CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITests.swift; sourceTree = "<group>"; };
-		6034570629D9C54800EC2129 /* CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		603456FD29D9C54800EC2129 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				603456E229D9C54700EC2129 /* Counter */,
-				603456F929D9C54800EC2129 /* CounterTests */,
-				6034570329D9C54800EC2129 /* CounterUITests */,
 				603456E129D9C54700EC2129 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +68,6 @@
 			children = (
 				603456E029D9C54700EC2129 /* Counter.app */,
 				603456F629D9C54800EC2129 /* CounterTests.xctest */,
-				6034570029D9C54800EC2129 /* CounterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,23 +84,6 @@
 				603456F129D9C54700EC2129 /* Info.plist */,
 			);
 			path = Counter;
-			sourceTree = "<group>";
-		};
-		603456F929D9C54800EC2129 /* CounterTests */ = {
-			isa = PBXGroup;
-			children = (
-				603456FA29D9C54800EC2129 /* CounterTests.swift */,
-			);
-			path = CounterTests;
-			sourceTree = "<group>";
-		};
-		6034570329D9C54800EC2129 /* CounterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6034570429D9C54800EC2129 /* CounterUITests.swift */,
-				6034570629D9C54800EC2129 /* CounterUITestsLaunchTests.swift */,
-			);
-			path = CounterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +124,6 @@
 			productReference = 603456F629D9C54800EC2129 /* CounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		603456FF29D9C54800EC2129 /* CounterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6034571029D9C54800EC2129 /* Build configuration list for PBXNativeTarget "CounterUITests" */;
-			buildPhases = (
-				603456FC29D9C54800EC2129 /* Sources */,
-				603456FD29D9C54800EC2129 /* Frameworks */,
-				603456FE29D9C54800EC2129 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6034570229D9C54800EC2129 /* PBXTargetDependency */,
-			);
-			name = CounterUITests;
-			productName = CounterUITests;
-			productReference = 6034570029D9C54800EC2129 /* CounterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +138,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					603456F529D9C54800EC2129 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 603456DF29D9C54700EC2129;
-					};
-					603456FF29D9C54800EC2129 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 603456DF29D9C54700EC2129;
 					};
@@ -221,7 +158,6 @@
 			targets = (
 				603456DF29D9C54700EC2129 /* Counter */,
 				603456F529D9C54800EC2129 /* CounterTests */,
-				603456FF29D9C54800EC2129 /* CounterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,13 +174,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		603456F429D9C54800EC2129 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		603456FE29D9C54800EC2129 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,16 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				603456FB29D9C54800EC2129 /* CounterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		603456FC29D9C54800EC2129 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6034570529D9C54800EC2129 /* CounterUITests.swift in Sources */,
-				6034570729D9C54800EC2129 /* CounterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +207,6 @@
 			isa = PBXTargetDependency;
 			target = 603456DF29D9C54700EC2129 /* Counter */;
 			targetProxy = 603456F729D9C54800EC2129 /* PBXContainerItemProxy */;
-		};
-		6034570229D9C54800EC2129 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 603456DF29D9C54700EC2129 /* Counter */;
-			targetProxy = 6034570129D9C54800EC2129 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -445,6 +359,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +388,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,6 +407,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9QWV9K987X;
@@ -498,7 +415,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.CounterTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = test.counterb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -511,6 +430,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9QWV9K987X;
@@ -518,47 +438,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.CounterTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = test.counterb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Counter";
-			};
-			name = Release;
-		};
-		6034571129D9C54800EC2129 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9QWV9K987X;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.CounterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Counter;
-			};
-			name = Debug;
-		};
-		6034571229D9C54800EC2129 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9QWV9K987X;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.CounterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Counter;
 			};
 			name = Release;
 		};
@@ -588,15 +474,6 @@
 			buildConfigurations = (
 				6034570E29D9C54800EC2129 /* Debug */,
 				6034570F29D9C54800EC2129 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6034571029D9C54800EC2129 /* Build configuration list for PBXNativeTarget "CounterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6034571129D9C54800EC2129 /* Debug */,
-				6034571229D9C54800EC2129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
